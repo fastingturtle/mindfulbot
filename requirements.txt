@@ -5,3 +5,4 @@ python-dotenv>=0.19.0
 asyncpg>=0.25.0
 fastapi>=0.95.0 # Or newer version
 uvicorn[standard]>=0.20.0 # Include [standard] for performance boosts
+backports.zoneinfo; python_version < "3.9"
